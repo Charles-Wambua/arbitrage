@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './css/Aside.css'; // Make sure to create and import a CSS file for styles
+import './css/Aside.css'; // Ensure this CSS file exists and is correctly named
 
 const Sidebar = () => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
 
   const handleResize = (e) => {
     e.preventDefault();
@@ -58,8 +58,8 @@ const Sidebar = () => {
             </li>
             <li>
               <a href="#" onClick={handleResize}>
-                <i className="bx bx-chevrons-right"></i>
-                <span>Collapse</span>
+                <i className={`bx ${isExpanded ? 'bx-chevrons-left' : 'bx-chevrons-right'}`}></i>
+                <span>{isExpanded ? 'Collapse' : 'Expand'}</span>
               </a>
             </li>
           </ul>
