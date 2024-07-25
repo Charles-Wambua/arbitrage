@@ -4,15 +4,17 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import feather from 'feather-icons';
-import * as Sentry from '@sentry/react';
+// import * as Sentry from '@sentry/react';
+import * as Sentry from '@sentry/browser';
 
 
 Sentry.init({
   dsn: "https://f5037506d1825f4abbfea5a076421857@o4507651680108544.ingest.us.sentry.io/4507661307084800",
-  integrations: [
-    Sentry.browserTracingIntegration(),
-    Sentry.replayIntegration(),
-  ],
+  // integrations: [
+  //   Sentry.browserTracingIntegration(),
+  //   Sentry.replayIntegration(),
+  // ],
+  integrations: [Sentry.browserTracingIntegration()],
   // Performance Monitoring
   tracesSampleRate: 1.0, //  Capture 100% of the transactions
   // Set 'tracePropagationTargets' to control for which URLs distributed tracing should be enabled
