@@ -8,7 +8,7 @@ import * as Sentry from '@sentry/react';
 
 
 Sentry.init({
-  dsn: "https://3abaa4cc8f2fb123dfa23b0df51c86cf@o4507651680108544.ingest.us.sentry.io/4507655565803520",
+  dsn: "https://f5037506d1825f4abbfea5a076421857@o4507651680108544.ingest.us.sentry.io/4507661307084800",
   integrations: [
     Sentry.browserTracingIntegration(),
     Sentry.replayIntegration(),
