@@ -1,3 +1,58 @@
+# Arbitrage - Pyramid Scheme and Perfume Sales Platform
+
+**Arbitrage** is a nationwide platform built with React for the frontend, Express for the backend, and MySQL for the database. The platform allows users to participate in a pyramid-style referral system and earn rewards by inviting new users. Additionally, users can purchase **Arbitrage Perfumes** directly from the website. Payments are securely processed via **Stripe**.
+
+## Features
+
+### 1. Pyramid Referral System
+- Users can invite others using unique referral codes.
+- Earn rewards and bonuses for every successful sign-up through a referral link.
+- Track earnings and referral hierarchy via the user dashboard.
+
+### 2. Arbitrage Perfume Shop
+- Browse and purchase a variety of Arbitrage perfumes.
+- Each perfume product has detailed descriptions and pricing information.
+- Users can add products to their cart and securely checkout using Stripe.
+
+### 3. Stripe Payments Integration
+- Secure online payments powered by Stripe.
+- Payments for both referral earnings and perfume purchases are handled through Stripe's payment gateway.
+
+### 4. Nationwide Service
+- Arbitrage is available to users across the country.
+- Nationwide shipping for all perfume orders.
+
+### 5. User Dashboard
+- View earnings from referrals.
+- Track purchases and orders.
+- Manage profile and account settings.
+
+### 6. Admin Panel
+- Admins can manage users, orders, and referral structures.
+- Overview of the platform’s financials, including total sales and payouts.
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Node.js with Express.js
+- **Database:** MySQL
+- **Payments:** Stripe API
+- **Hosting:** Deployed on [Cloud provider], with support for high availability.
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or later)
+- MySQL
+- Stripe Account for payments
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/arbitrage.git
+cd arbitrage
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
