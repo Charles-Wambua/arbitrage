@@ -208,13 +208,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 150px; 
+    height: 100px; 
+    margin: 2px;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .specialText {
-    font-size: 24px;
+    font-size: 14px;
   }
   
 .ph-2 {

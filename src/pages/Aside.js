@@ -99,35 +99,33 @@ const Sidebar = () => {
       </aside>
 
       <main>
-        <h1>Expandable Sidebar</h1>
+        <h1>Dashboard</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ab non
-          dolorem reiciendis harum quasi inventore a eum soluta. Suscipit id
-          asperiores libero veritatis ducimus sapiente minus reprehenderit
-          eligendi pariatur.
+          Work with US  |   Earn handsomely   |   Get Best Perfumes   |   24hr support|
+                                 |   Arbitrage Perfumes                  | Invite friends and get admirable benefits  |
         </p>
         <header></header>
 
         <div className="placeholderr">
           <div className="ph-1">
-            <div className="col-md-6 col-sm-12 special-card">
+            <div className="special-card">
               <h1 className="specialText">
                 <b>1,307,991.00</b>
               </h1>
-              <h4 className="text-center specialText">Left PV</h4>
+              <h4 className="text-center specialText">Left AV</h4>
             </div>
             <div className="col-md-6 col-sm-12 special-card">
               <h1 className="specialText">
                 <b>472.50</b>
               </h1>
-              <h4 className="text-center specialText">Right PV</h4>
+              <h4 className="text-center specialText">Right AV</h4>
             </div>
           </div>
-          <div className="ph-2">b</div>
+          <div className="ph-2"></div>
           <div className="ph-3">
             <div class="card">
               <div class="card-header">
-                <h4 class="card-title font-weight-bolder">PV Volume</h4>
+                <h4 class="card-title font-weight-bolder">AV Volume</h4>
               </div>
               <div class="card-body p-0">
                 <div class="table-responsive">
@@ -135,7 +133,7 @@ const Sidebar = () => {
                     <table class="table">
                       <thead>
                         <tr>
-                          <th class="pl-2">PV Type</th>
+                          <th class="pl-2">AV Type</th>
                           <th class="text-center">Left</th>
                           <th class="text-center">Right</th>
                         </tr>
@@ -225,7 +223,7 @@ const Sidebar = () => {
                 </div>
               </div>
               <a
-                href="https://member.divasecretintl.com/backend/placement-network-genealogy"
+                // href="https://member.divasecretintl.com/backend/placement-network-genealogy"
                 class="mx-1 mb-1 btn btn-primary"
               >
                 View Placement Network
@@ -269,7 +267,7 @@ const Sidebar = () => {
                   <p class="card-text">Remaining UT Days</p>
                 </div>
                 <a
-                  href="https://member.divasecretintl.com/backend/upgrade"
+                  // href="https://member.divasecretintl.com/backend/upgrade"
                   class="btn btn-primary mb-1 mx-2"
                 >
                   Upgrade Now
@@ -376,7 +374,7 @@ const Sidebar = () => {
                   </div>
                 </div>
                 <a
-                  href="https://member.divasecretintl.com/backend/commission"
+                  // href="https://member.divasecretintl.com/backend/commission"
                   class="btn btn-primary mb-1 mx-2"
                 >
                   View More
@@ -492,7 +490,7 @@ const Sidebar = () => {
                     <tr>
                       <td class="text-right" colspan="3">
                         <a
-                          href="https://member.divasecretintl.com/backend/sponsor-genealogy"
+                          // href="https://member.divasecretintl.com/backend/sponsor-genealogy"
                           class="btn btn-primary"
                         >
                           View Sponsor Network
